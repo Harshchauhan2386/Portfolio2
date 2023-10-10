@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+
+
+    <nav id="navbar-example2" class="navbar px-3 ">
+        <a class="navbar-brand text-light" href="#">PORTFOLIO</a>
+        <ul class="nav nav-pills ">
+            <li class="nav-item menuitem mx-1">
+                <a class="nav-link " href="#scrollspyHeading1"> Home</a>
+            </li>
+            <li class="nav-item menuitem mx-1">
+                <a class="nav-link " href="#scrollspyHeading2">Projects</a>
+            </li>
+            <li class="nav-item menuitem mx-1">
+                <a class="nav-link " href="#scrollspyHeading3">About</a>
+            </li>
+            <li class="nav-item menuitem mx-1">
+                <a class="nav-link " href="#scrollspyHeading4">Contact</a>
+            </li>
+            <li class="mode">
+                <label>
+                    <input class="toggle-checkbox" type="checkbox">
+                    <div class="toggle-slot">
+                        <div class="sun-icon-wrapper">
+                            <div class="iconify sun-icon" data-icon="feather-sun" data-inline="false"></div>
+                        </div>
+                        <div class="toggle-button"></div>
+                        <div class="moon-icon-wrapper">
+                            <div class="iconify moon-icon" data-icon="feather-moon" data-inline="false"></div>
+                        </div>
+                    </div>
+                </label>
+
+            </li>
+        </ul>
+    </nav>
+
+
+
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+        data-bs-smooth-scroll="true" class="scrollspy-example " tabindex="0">
+
+        <div class="container-fluid  home px-0  " id="scrollspyHeading1">
+            <div class="name mx-5 px-5 pb-5  ">
+                <p class="h2">
+                    <span> I'm Harsh Chauhan</span>
+                </p>
+                <p class="h4">- Front-End Web Developer - </p>
+            </div>
+            <div class="home-bg">
+                <div class="gradiente">
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid projects px-0 " id="scrollspyHeading2">
+            <!-- <div class="project-bg">
+                <div class="gradiente2">
+
+                </div>
+            </div> -->
+            <div class="name contianer w-100 m-5  px-3 pb-5 ">
+                <p class="h1 my-5">
+                    <span> Below are similar tasks I've done.</span>
+                </p>
+                <div class="box">
+                    <div class="card">
+                        <div class="card-details">
+                            <img src="img/bf.jpg" alt="" srcset="">
+
+                        </div>
+                        <button class="card-button">Body Fuel</button>
+                    </div>
+                    <div class="card">
+
+                        <div class="card-details">
+                            <img src="img/c.png" alt="" srcset="" style="filter: invert(); transform: scale(0.7);">
+
+                        </div>
+                        <button class="card-button">Code Soul</button>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-details">
+                            <img src="img/fh.jpg" alt="" srcset="" style="filter: invert(); transform: scale(0.7);">
+                        </div>
+                        <button class="card-button">Fashion Hub</button>
+
+                    </div>
+                    <div class="card">
+
+                        <div class="card-details">
+                            <img src="img/comingsoon.png" alt="" srcset="" style="transform: scale(0.7);">
+                        </div>
+                        <button class="card-button">?</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid about  d-flex justify-content-between flex-column h-100" id="scrollspyHeading3">
+            <p class="display-5 text-center mb-5 w-100">About</p>
+
+            <div class="container d-flex justify-content-between flex-row m-5">
+                <div class="container">
+                    <p class="display-6 mb-5 w-100 ">Work</p>
+                    <ul>
+                        <li class="h5 fw-light">Lorem ipsum dolor sit.</li>
+                        <li class="h5 fw-light">Lorem ipsum dolor sit.</li>
+                        <li class="h5 fw-light">Lorem ipsum dolor sit.</li>
+                        <li class="h5 fw-light">Lorem ipsum dolor sit.</li>
+                    </ul>       
+                </div>
+                <div class="container">
+                
+                    <p class="display-6 w-100 mb-5">Skills</p>
+                    <div class="row">
+                        <div class="col-4 " style="filter: invert();" >
+                          <div class="list-group list-group-flush " id="list-tab" role="tablist">
+                            <a class="list-group-item list-group-item-action active "  id="list-home-list" data-bs-toggle="list" href="#list-html" role="tab" aria-controls="list-home">HTML</a>
+                            <a class="list-group-item list-group-item-action "    id="list-profile-list" data-bs-toggle="list" href="#list-css" role="tab" aria-controls="list-profile">css</a>
+                            <a class="list-group-item list-group-item-action " id="list-messages-list" data-bs-toggle="list" href="#list-bootstrap" role="tab" aria-controls="list-messages">Bootstrap</a>
+                            <a class="list-group-item list-group-item-action " id="list-settings-list" data-bs-toggle="list" href="#list-js" role="tab" aria-controls="list-settings">Js</a>
+                          </div>
+                        </div>
+                        <div class="col-8">
+                          <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active " id="list-html" role="tabpanel" aria-labelledby="list-home-list">
+                                <div class="skill-icon mx-5">
+                                    <img src="img/html-5.png" alt="html" srcset="">
+                                    
+                                </div>
+                                <div class="progress m-5">
+                                    <div class="progress-bar" role="progressbar" aria-label="Success example" style="width: 80%; background-color: rgb(252, 73, 11);" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-css" role="tabpanel" aria-labelledby="list-profile-list">
+                                <div class="skill-icon mx-5">
+                                    <img src="img/css-3.png" alt="html" srcset="">
+                                    
+                                </div>
+                                <div class="progress m-5">
+                                    <div class="progress-bar " role="progressbar" aria-label="Success example" style="width: 75%; background-color: rgb(33, 150, 243); " aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-bootstrap" role="tabpanel" aria-labelledby="list-messages-list">
+                                <div class="skill-icon mx-5">
+                                    <img src="img/bootstrap-logo.svg" style="width: auto;" alt="html" srcset="">
+                                    
+                                </div>
+                                <div class="progress m-5">
+                                    <div class="progress-bar " role="progressbar" aria-label="Success example" style="width: 50%; background-color: rgb(119, 17, 247); " aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="list-js" role="tabpanel" aria-labelledby="list-settings-list">
+                                <div class="skill-icon mx-5">
+                                    <img src="img/js.png" alt="html" srcset="">
+                                    
+                                </div>
+                                <div class="progress m-5">
+                                    <div class="progress-bar " role="progressbar" aria-label="Success example" style="width: 15%; background-color: rgb(255, 223, 0); " aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid home" id="scrollspyHeading4">
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
